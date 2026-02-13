@@ -18,5 +18,8 @@ class Movie{
     this.rating=rating;
     this.title=title;
   }
+  // bool isGood(){
+  //   return rating! > 7;
+  // }
 
 }

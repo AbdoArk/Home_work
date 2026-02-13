@@ -1,6 +1,6 @@
 void main(){
   Temperature inEgypt=Temperature(25);
-  print(inEgypt.Fahrenheit());
+  print(inEgypt.fahrenheit());
 
 }
 
@@ -10,7 +10,7 @@ class Temperature{
     this.celsius=celsius;
   }
 
-Fahrenheit(){
+fahrenheit(){
   var value=(celsius!*9/5)+32;
   return value;
 

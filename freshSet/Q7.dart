@@ -4,7 +4,7 @@ void main(){
   print("Entre the number : ");
   int numbers=int.parse(stdin.readLineSync()!);
   
-  while(numbers>=10){
+  while(numbers>=100){
     int sum=0;
     List<String> numbersList=numbers.toString().split('');
     for(String item in numbersList){
